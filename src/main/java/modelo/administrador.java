@@ -4,8 +4,8 @@ public class administrador {
     
     private String usuario;
     private String clave;
-    private RegistroVentas registroVentas; // Lista (LES)
-    private PilaDevoluciones pilaDevoluciones; // Pila
+    private RegistroVentas registroVentas; 
+    private PilaDevoluciones pilaDevoluciones;
 
     public administrador(String usuario, String clave) {
         this.usuario = usuario;
@@ -14,7 +14,6 @@ public class administrador {
         this.pilaDevoluciones = new PilaDevoluciones();
     }
     
-    // --- MÉTODO DE NEGOCIO (PARA LA PILA) ---
     public void procesarProximaDevolucion() {
         System.out.println("\n--- Procesando Devolución ---");
         comprobante devuelto = this.pilaDevoluciones.desapilar();
@@ -23,7 +22,7 @@ public class administrador {
         }
     }
     
-    // --- GETTERS NECESARIOS (LOS QUE FALTABAN) ---
+    //GETTERS
 
     public String getUsuario() {
         return usuario;

@@ -2,7 +2,7 @@ package modelo;
 
 public class MapaAsientos {
     
-    NodoDoble inicio; // Ahora usa el NodoDoble genérico
+    NodoDoble inicio; 
     NodoDoble fin; 
 
     public MapaAsientos() {
@@ -10,9 +10,7 @@ public class MapaAsientos {
         this.fin = null;
     }
     
-    // El método AÚN recibe 'asientos' (específico)
     public void agregarAsiento(asientos nuevoAsiento) {
-        // Pero lo guarda en un NodoDoble (genérico)
         NodoDoble nuevoNodo = new NodoDoble(nuevoAsiento); 
         
         if (inicio == null) {
@@ -30,16 +28,11 @@ public class MapaAsientos {
         System.out.println("--- DISPOSICIÓN DE ASIENTOS ---");
         
         while (actual != null) {
-            // ----- ACTUALIZACIÓN CLAVE (CASTING) -----
-            // 1. Obtenemos el dato como 'Object'
             Object datoObjeto = actual.dato;
-            // 2. Lo convertimos (cast) de nuevo a 'asientos'
             asientos asiento = (asientos) datoObjeto; 
             
-            // 3. Usamos los métodos de 'asientos'
             String estado = asiento.isEstado() ? "OCUPADO" : "LIBRE";
             String pos = String.valueOf(asiento.getFila()) + asiento.getColumna();
-            // -----------------------------------------
             
             System.out.print("[" + pos + " - " + estado + "] ");
             actual = actual.derecha;

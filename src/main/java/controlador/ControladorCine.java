@@ -1,9 +1,5 @@
 package controlador;
 
-/**
- *
- * @author USER
- */
 import modelo.administrador;
 import modelo.comprobante;
 import modelo.sala;
@@ -23,13 +19,8 @@ public class ControladorCine {
         System.out.println("ControladorCine iniciado. Entidades de negocio listas.");
     }
     
-    // --- MÉTODO CORREGIDO ---
-    // (Antes aceptaba 'double monto', ahora acepta el objeto 'comprobante')
     public void registrarNuevaVenta(comprobante nuevaVenta) {
-        // (La creación del comprobante ahora se hace en el Main)
-        
-        // Esta línea ahora funcionará porque getRegistroVentas() existe en el admin
-        this.admin.getRegistroVentas().registrarComprobante(nuevaVenta);
+       this.admin.getRegistroVentas().registrarComprobante(nuevaVenta);
     }
     
     public void mostrarEstadoSala() {
@@ -38,7 +29,6 @@ public class ControladorCine {
     }
     
     public double obtenerReporteGanancias() {
-        // Esta línea ahora funcionará
         return this.admin.getRegistroVentas().calcularGananciasTotales();
     }
     
@@ -49,15 +39,11 @@ public class ControladorCine {
     public sala getSalaPrincipal() {
         return salaPrincipal;
     }
-
-    // --- MÉTODOS DE LA PILA (YA ESTABAN BIEN) ---
-    public void registrarDevolucion(comprobante comprobanteADevolver) {
-        // Esta línea ahora funcionará porque getPilaDevoluciones() existe en el admin
+ public void registrarDevolucion(comprobante comprobanteADevolver) {
         this.admin.getPilaDevoluciones().apilar(comprobanteADevolver);
     }
     
     public void gestionarProximaDevolucion() {
-        // Esta línea ahora funcionará porque procesarProximaDevolucion() existe en el admin
         this.admin.procesarProximaDevolucion();
     }
 }
