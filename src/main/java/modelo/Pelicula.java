@@ -1,5 +1,5 @@
 package modelo;
-class Pelicula {
+public class Pelicula {
     private String id;
     private String nombre;
     private double duracion;

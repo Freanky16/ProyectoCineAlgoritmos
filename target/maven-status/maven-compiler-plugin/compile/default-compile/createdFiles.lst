@@ -1,8 +1,11 @@
 modelo\Pelicula.class
 modelo\NodoSimple.class
 controlador\ConexionDB.class
+controlador\OdiseyCine$1.class
 modelo\comprobante.class
+vista\MenuInicio.class
 modelo\PilaDevoluciones.class
+vista\VistaCliente.class
 modelo\RegistroVentas.class
 modelo\sala.class
 modelo\MapaAsientos.class
@@ -11,7 +14,9 @@ modelo\asientos.class
 modelo\promocion.class
 modelo\cliente.class
 modelo\NodoDoble.class
+modelo\ArbolPeliculas.class
 modelo\funcion.class
 controlador\OdiseyCine.class
 modelo\clienteVIP.class
+modelo\NodoArbol.class
 modelo\administrador.class
