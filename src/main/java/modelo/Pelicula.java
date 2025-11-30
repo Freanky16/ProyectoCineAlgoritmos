@@ -6,14 +6,16 @@ public class Pelicula {
     private String clasificacion;
     private String genero;
     private boolean disponible;
+    private String rutaImagen;
 
-    public Pelicula(String id, String nombre, double duracion, String clasificacion, String genero, boolean disponible) {
+    public Pelicula(String id, String nombre, double duracion, String clasificacion, String genero, boolean disponible, String rutaImagen) {
         this.id = id;
         this.nombre = nombre;
         this.duracion = duracion;
         this.clasificacion = clasificacion;
         this.genero = genero;
         this.disponible = disponible;
+        this.rutaImagen = rutaImagen;
     }
 
     public Pelicula() {
@@ -65,6 +67,18 @@ public class Pelicula {
 
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
+    }
+    public String getRutaImagen() {
+        return rutaImagen;
+    }
+
+    public void setRutaImagen(String rutaImagen) {
+        this.rutaImagen = rutaImagen;
+    }
+    
+    @Override
+    public String toString() {
+        return nombre;
     }
     
 }

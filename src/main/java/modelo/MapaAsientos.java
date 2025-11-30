@@ -37,6 +37,5 @@ public class MapaAsientos {
             System.out.print("[" + pos + " - " + estado + "] ");
             actual = actual.derecha;
         }
-        System.out.println("\n------------------------------");
     }
 }

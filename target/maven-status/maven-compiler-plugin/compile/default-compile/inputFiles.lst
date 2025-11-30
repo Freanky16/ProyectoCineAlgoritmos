@@ -1,21 +1,24 @@
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\controlador\ConexionDB.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\controlador\ControladorCine.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\controlador\OdiseyCine.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\administrador.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\ArbolPeliculas.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\asientos.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\cliente.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\clienteVIP.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\comprobante.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\funcion.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\MapaAsientos.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\NodoArbol.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\NodoDoble.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\NodoSimple.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\Pelicula.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\PilaDevoluciones.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\promocion.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\RegistroVentas.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\modelo\sala.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\vista\MenuInicio.java
-C:\Users\LAB-USR-LNORTE\Downloads\ProyectoCineAlgoritmos\src\main\java\vista\VistaCliente.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\vista\VistaAdmin.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\comprobante.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\NodoArbolComprobante.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\NodoDoble.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\Pelicula.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\funcion.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\vista\VistaCliente.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\controlador\OdiseyCine.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\sala.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\clienteVIP.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\RegistroVentas.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\NodoSimple.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\NodoArbol.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\controlador\ConexionDB.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\vista\MenuInicio.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\asientos.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\administrador.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\controlador\ControladorCine.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\PilaDevoluciones.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\ArbolPeliculas.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\MapaAsientos.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\ArbolComprobantes.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\promocion.java
+C:\Users\USER\Desktop\TheLotR\PROOYECTO AED\OdiseyCine\src\main\java\modelo\cliente.java

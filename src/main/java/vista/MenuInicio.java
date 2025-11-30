@@ -27,7 +27,7 @@ public class MenuInicio extends JFrame {
         lblTitulo.setFont(new Font("Arial", Font.BOLD, 18));
         add(lblTitulo);
 
-        JButton btnCliente = new JButton("SOY CLIENTE (Ver Cartelera)");
+        JButton btnCliente = new JButton("SOY CLIENTE");
         btnCliente.setFont(new Font("Arial", Font.BOLD, 14));
         btnCliente.setBackground(new Color(100, 200, 255)); 
         
@@ -39,7 +39,13 @@ public class MenuInicio extends JFrame {
 
         JButton btnAdmin = new JButton("SOY ADMINISTRADOR");
         btnAdmin.addActionListener(e -> {
-            JOptionPane.showMessageDialog(this, "Módulo de Admin pendiente (Le toca a tu compañero)");
+            String pass = JOptionPane.showInputDialog("Ingrese contraseña de admin:");
+            //contraseña de admin 1234
+            if("1234".equals(pass)) {
+                new VistaAdmin(controlador).setVisible(true);
+            } else {
+                JOptionPane.showMessageDialog(this, "Contraseña incorrecta");
+            }
         });
         add(btnAdmin);
     }
